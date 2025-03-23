@@ -1,4 +1,5 @@
-# answer.sql CREATE TABLE payments (
+# answer.sql
+CREATE TABLE payments (
     checkNumber Vin(50),
     paymentDate DATE,
     amount DECIMAL(10, 2)
